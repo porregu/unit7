@@ -1,5 +1,8 @@
-list["open","close","abierto",]
-def length(list):
-    longer_letter=[]
-    if length(list):
-        list.append(longer_letter)
+def get_max(nums):
+    max_number=0
+    for y in(nums):
+        if len(y)>max_number:
+            max_number=len(y)
+    return max_number
+nums=["abierto","cerrado","los","affvgvgggbgbg"]
+print(get_max(nums))
