@@ -15,4 +15,4 @@ for x in word_no_space:
     user_9code=second_alphabet.index(x)
     user_word_uncode=one[user_9code]
     uncode_word.append(user_word_uncode)
-print("this is your uncode shhhh, dont let the teacher know ", "".join(uncode_word))
+print("this is your uncode shhhh", "".join(uncode_word))
